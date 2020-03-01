@@ -1,6 +1,7 @@
-data_location.py
-settings.py
-
+data_location.json
+settings.json
+*.swp
+python/*.swp
 
 # NOTE - Everything below this line was created by github when the project was created.
 # Byte-compiled / optimized / DLL files
