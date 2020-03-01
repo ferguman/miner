@@ -1,3 +1,8 @@
+data_location.py
+settings.py
+
+
+# NOTE - Everything below this line was created by github when the project was created.
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
