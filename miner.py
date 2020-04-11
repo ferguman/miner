@@ -6,6 +6,8 @@
 
 miner_settings = []
 
+# TODO: Look at https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/cli/cli-miner.cpp -> the routine named main
+
 # Load the settings file 
 if exists('data_location.json'):
    with open('data_location.json') as f:
@@ -24,4 +26,3 @@ if exists('data_location.json'):
          print('The file named data_location.json must have an attribute named settings.file_path')
 else:
    print('You must create a data_location.json file')
-"""
