@@ -7,6 +7,8 @@
 miner_settings = []
 
 # TODO: Look at https://github.com/fireice-uk/xmr-stak/blob/master/xmrstak/cli/cli-miner.cpp -> the routine named main
+# TODO: work is on p3demo and yocto.  create fopd module and git it running p3demo. then loop back and work on 
+#       actual monero algorithm.
 
 # Load the settings file 
 if exists('data_location.json'):
